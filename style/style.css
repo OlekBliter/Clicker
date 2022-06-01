@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sans-serif;   
+    user-select: none;
+    text-align: center;
+}
+.wrap{
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5335a;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 5px;
+}
+.header h1{
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    color: aliceblue;
+}
+.main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+}
+.top h3{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.top h4{
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.bottom{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: #6173ce;
+    border: 50px double #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circle p{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.result{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.result h1{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.result h3{
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.result button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+}

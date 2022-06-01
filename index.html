@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=500px, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <title>Clicker</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <h1>How many clicks can you make per minute?</h1>
+        </header>
+        <main class="main">
+            <div class="card" id="card">
+                <div class="top">
+                    <h3 id="time">Time less: <p id="count_num">10</p></h3>
+                </div>
+                <div class="bottom">
+                    <div class="circle" id="circle"><p id="count_score">Click!</p></div>
+                </div>
+            </div>
+            <div class="result" id="result">
+                <h1>Your result:</h1>
+                <h3 id="count_result"></h3>
+                <button id="start">Start Again</button>
+            </div>
+        </main>
+    </div>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
