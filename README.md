@@ -1,1 +1,1 @@
-![](img/desktopImg.png) {align=center}
+![](img/desktopImg.png)
